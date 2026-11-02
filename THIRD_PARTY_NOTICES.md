@@ -25,18 +25,15 @@ License identifiers below come from the installed package metadata.
 | --- | --- | --- |
 | streamlit | 1.66.1 | Apache-2.0 |
 | Pillow | 12.3.0 | MIT-CMU |
-| google-genai | 2.34.0 | Apache-2.0 |
 | google-api-python-client | 2.201.0 | Apache-2.0 |
 | google-auth-oauthlib | 1.5.0 | Apache-2.0 |
 | python-dotenv | 1.2.4 | BSD-3-Clause |
 | pydantic | 2.14.2 | MIT |
 | numpy | 2.4.6 | BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0 |
-| keyring | 25.7.0 | MIT |
 | streamlit-paste-button | 0.1.2 | MIT |
 | opencv-python | 5.0.0.93 | Apache-2.0 |
 | yomitoku | 0.15.1 | CC BY-NC-SA 4.0 |
 
-Legacy Gemini helpers remain in the source and tests. The current app uses local YomiToku and does not invoke those helpers for image recognition.
 
 ## Scope of review
 

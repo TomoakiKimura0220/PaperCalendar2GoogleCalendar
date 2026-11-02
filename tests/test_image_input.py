@@ -15,9 +15,8 @@ class PasteTests(unittest.TestCase):
             pasted_image_bytes(SimpleNamespace(width=10000,height=10000))
 
     @patch('grid_detection.detect_grid', return_value=[[.03,.08],[.97,.08],[.97,.96],[.03,.96]])
-    @patch('key_store.load_key', return_value='')
     @patch('streamlit_paste_button.paste_image_button')
-    def test_paste_preview_and_clear(self, paste, load, detect):
+    def test_paste_preview_and_clear(self, paste, detect):
         from pathlib import Path
         from streamlit.testing.v1 import AppTest
         paste.return_value=SimpleNamespace(image_data=Image.new('RGB',(700,500),'white'))

@@ -9,7 +9,6 @@ from PIL import Image, ImageOps
 from perspective import EXAMPLE_CORNERS, marked_corners
 from dotenv import load_dotenv
 from core import event_body, month_overview
-from diagnostics import recognition_error
 from recognition import DEFAULT_LAYOUT, prepare, week_image
 import google_calendar as gc
 from local_recognition import extract
